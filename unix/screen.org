@@ -1,0 +1,13 @@
+# screen cannot be started because following error:
+# Cannot open your terminal '/dev/pts/0' - please check
+
+# solution is to start script:
+script /dev/null
+
+# now, screen will run
+screen
+
+# While we are at screen, a short list of handy commands:
+# c-a S   : Split horizontal
+# C-a TAB : Jump to other window
+# C-a c   : create a new buffer
