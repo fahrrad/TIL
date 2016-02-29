@@ -1,0 +1,5 @@
+When writing regex constraints in XSDs, there is only a subset of the Regex language available. For example, the ^ and $ cannot be used
+
+more info here 
+http://www.regular-expressions.info/xml.html
+

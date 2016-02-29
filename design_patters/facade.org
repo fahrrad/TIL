@@ -1,0 +1,10 @@
+* Description
+Facade pattern makes it possible to hide the complexity of different steps behind a clear interface
+
+* example code
+
+#+BEGIN_SRC python
+class WebInterface1(object):
+  
+
+#+END_SRC

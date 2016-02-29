@@ -1,3 +1,4 @@
+
 # Opening an url. Note that the setting here is to use a corporate firewall for everything, except basf.net stuff
 
 from urllib.request import urlopen
