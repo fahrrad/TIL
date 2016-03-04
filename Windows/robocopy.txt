@@ -1,0 +1,15 @@
+Today I learned: Robocopy is a strange beast. 
+
+You can exclude hidden files, but here is no way to exclude hidden directories :/
+
+exclude hidden and system files: /XA:SH
+
+When backing up your home dir, excluding AppData might be a good idea.
+
+When you do not specify that you want to exclude joinction points for files (the default behaviour), the bakup will run forever, and fill up all the space it can get
+
+exclude junction points: /XJD
+
+my complete robocopy command: 
+
+ROBOCOPY FROM TO /MIR /z /e /fft /r:12 /w:5 /tbd /np /XJD /XA:SH /XD AppData
