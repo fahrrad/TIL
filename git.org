@@ -1,0 +1,10 @@
+* git list branches
+git branch -vv
+
+* git list remote branches
+git branch -r
+
+* checkout a remote branch
+git checkout remote_branch_name
+
+
